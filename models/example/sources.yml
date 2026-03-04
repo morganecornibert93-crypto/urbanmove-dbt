@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: UrbanMove_raw
+    database: urbanmove-489008
+    schema: UrbanMove_raw
+
+    tables:
+      - name: accessibilite_gare
+      - name: indicateurs_perception
+      - name: liste_transporteurs
+      - name: profil_surface
