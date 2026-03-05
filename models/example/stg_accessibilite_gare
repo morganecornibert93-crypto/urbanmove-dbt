@@ -1,7 +1,0 @@
-SELECT
-    stop_point_id,
-    accessibility_level_id,
-    TRIM(LOWER(accessibility_level_name)) AS accessibility_level_name
-
-FROM {{ source('UrbanMove_raw', 'accessibilite_gare') }}
-WHERE stop_point_id IS NOT NULL
