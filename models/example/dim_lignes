@@ -9,4 +9,4 @@ SELECT
     signaux_sonores,
     signaux_visuels,
     air_conditionne   
-FROM  {{ref ('stg_referentiel_lignes_clean')}}
+FROM  {{ref ('stg_referentiel_lignes_clean')}} 
