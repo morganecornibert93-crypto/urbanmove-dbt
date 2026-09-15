@@ -1,15 +1,29 @@
-Welcome to your new dbt project!
+# UrbanMove – Projet Data Analyst
 
-### Using the starter project
+Projet réalisé dans le cadre de ma formation Data Analyst à La Capsule.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Objectif
 
+Analyser les données du réseau de transport francilien afin d'étudier
+ses performances et d'identifier les facteurs pouvant influencer
+l'expérience des usagers.
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Technologies
+
+- SQL
+- dbt
+- BigQuery
+- Google Cloud Storage
+- n8n
+- Power BI / DAX
+- Python / Scikit-learn
+
+## Transformation des données
+
+Les données ont été transformées et modélisées avec dbt afin de construire
+des tables structurées pour l'analyse et la visualisation.
+
+## Contenu
+
+Le dossier `models` contient les modèles dbt développés pour le projet,
+notamment les tables de staging et les tables destinées à l'analyse.
